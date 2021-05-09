@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">IN&amp;OUT</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="addres">addres</string>
+    <string name="birthdate">birth date</string>
+    <string name="select_date">Select Date...</string>
+    <string name="by_pressing_next_you_agree_to_our">by pressing next you agree to our</string>
+    <string name="terms_amp_conditions">terms &amp; conditions</string>
+    <string name="send">Send</string>
+    <string name="name">name</string>
+    <string name="permission_date">Permission Date</string>
+    <string name="a_cause">a cause</string>
+    <string name="managing_director">Managing Director</string>
+    <string name="notes">Notes</string>
+    <string name="attend">attend</string>
+    <string name="depart">depart</string>
+    <string name="informations">information</string>
+    <string name="gander">Gander</string>
+    <string name="languages">languages</string>
+    <string name="thames">Thames</string>
+    <string name="share">Share</string>
+    <string name="privacy">Privacy</string>
+    <string name="hello">hello!</string>
+    <string name="forgot_password">FORGOT Password ?</string>
+    <string name="you_are_new_create_new">you are new create new</string>
+    <string name="day">day</string>
+    <string name="home">Home</string>
+    <string name="timelogin">Timelogin</string>
+    <string name="exception">exception</string>
+    <string name="settings">settings</string>
+    <string name="timetoleave">TimeToleave</string>
+    <string name="pleaseentername">please enter name</string>
+    <string name="pleaseenterpassword">please enter password</string>
+    <string name="Passwordmustbe8digit">Password must be 8 digit</string>
+    <string name="pleaseenterEmail">please enter Email</string>
+    <string name="pleaseenterphone">please enter phone</string>
+    <string name="pleaseenter11digit">\"please enter 11 digit \"</string>
+    <string name="pleaseenteraddress">please enter address</string>
+    <string name="pleaseenterdata">please enter data</string>
+    <string name="accountcreatedsuccessfully">account created successfully</string>
+    <string name="forgetpassword">\"         forget password\"</string>
+    <string name="changepasswordfromemail">\"change password from email \"</string>
+    <string name="thanks">thanks</string>
+    <string name="pleaseentercause">please enter cause</string>
+    <string name="pleaseentermanagername">please enter manager name</string>
+    <string name="sendExpationdone">\"send Expation done \"</string>
+    <string name="arabic">arabic</string>
+    <string name="english">english</string>
+    <string name="chooselanguage">choose language</string>
+    <string name="hi"> hi </string>
+    <string name="fingerprint">\"fingerprint \"</string>
+    <string name="cancel">cancel</string>
+    <string name="authenticate">authenticate</string>
+    <string name="permissiondenied">\"permission denied \"</string>
+    <string name="writtenwithTime">\"written with Time: \"</string>
+    <string name="ErroraddingTime">Error adding Time</string>
+    <string name="scanQRcode">scanQRcode</string>
+    <string name="again">again</string>
+    <string name="sorryplaseagain">sorry plase again</string>
+    <string name="forflash">\"     for flash use volume up key\"</string>
+    <string name="didntuseflash">didn\'t use flash use volume down key</string>
+    <string name="h">Home</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="save">save</string>
+    <string name="editprofile">editProfile</string>
+    <string name="default_notification_channel_id" translatable="false" />
+
+    <string-array name="gender">
+        <item>gender </item>
+        <item>Male</item>
+        <item>Female </item>
+    </string-array>
+    <string-array name="Department">
+        <item>   Department </item>
+        <item>  HR  </item>
+        <item>   IT </item>
+        <item>  Production </item>
+        <item>   Accounting &amp; Finance </item>
+        <item>  Marketing &amp;Sales </item>
+        <item>  Quality Management </item>
+        <item>  Health and Safety Department </item>
+
+    </string-array>
+    <string-array name="PermissionType">
+        <item>   Permission Type </item>
+        <item>  Patients  </item>
+        <item>   Discounted comfort </item>
+        <item>  Personal circumstance  </item>
+        <item>   Maternity / breastfeeding  </item>
+        <item>  Others: ................  </item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#AD000000</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="back">#ffffff</color>
+
+    <color name="edittext">#F3F1F1</color>
+    <color name="background">#000000</color>
+    <color name="backgroundcard">#292929</color>
+    <color name="spanner">#6E6A6A</color>
+
+    <color name="black">#FFFFFF</color>
+    <color name="black1">#000000</color>
+    <color name="blue">#1A61EF</color>
+    <color name="YEELOW">#FFCA00</color>
+    <color name="purple">#EF0949</color>
+    <color name="red">#CE0000</color>
+    <color name="green">#26ED47</color>
+    <color name="blue1">#0B1340</color>
+
+</resources>

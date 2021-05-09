@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".fragment.HomeFragment"   >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"/>
+            <Button
+                android:id="@+id/attendbtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/corner1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/attend"
+                android:textAllCaps="false"
+                android:textColor="@color/textcolor"
+                android:textSize="35sp" />
+            <Button
+                android:id="@+id/departbtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="80dp"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:background="@drawable/corner1"
+                android:text="@string/depart"
+                android:textColor="@color/textcolor"
+                android:textSize="35sp"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>
+
+

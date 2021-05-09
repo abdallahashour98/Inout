@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:title="@string/home"
+    android:id="@+id/Home"
+    android:icon="@drawable/ic_home"
+    android:enabled="true"/>
+
+
+    <item
+    android:title="@string/timelogin"
+    android:id="@+id/time_login"
+    android:icon="@drawable/timelogin"
+    android:enabled="true"/>
+    <item
+    android:title="@string/timetoleave"
+    android:id="@+id/time_leave"
+    android:icon="@drawable/timelogin"
+    android:enabled="true"/>
+    <item
+    android:title="@string/exception"
+    android:id="@+id/expation"
+    android:icon="@drawable/expation"
+    android:enabled="true"/>
+    <item
+    android:title="@string/settings"
+    android:id="@+id/settings"
+    android:icon="@drawable/ic_settings"
+    android:enabled="true"/>
+
+
+</menu>

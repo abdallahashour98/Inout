@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+<!--<style name="navigationTheme">-->
+<!--        <item name="white"> @color/white</item>-->
+
+<!--</style>-->
+
+    <style name="spanner">
+        <item name="android:theme">
+            @style/CardView
+        </item>
+
+
+    </style>
+</resources>

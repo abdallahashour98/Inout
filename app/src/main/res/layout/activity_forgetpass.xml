@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".aut.forgetpassActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/top"
+                android:layout_margin="05dp">
+                <ImageView
+                    android:id="@+id/imgbackrigtorig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:padding="05dp"
+                    android:src="@drawable/icback1" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/photorestpassword"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/emailforgetpass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="70dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black1"
+                android:background="@drawable/corner"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress">
+            </EditText>
+            <Button
+                android:id="@+id/buutonsend"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/corner1"
+                android:text="@string/send"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/textcolor"
+                android:textAllCaps="false"
+                android:textSize="35dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+

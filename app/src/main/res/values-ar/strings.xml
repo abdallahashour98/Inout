@@ -1,0 +1,97 @@
+<resources>
+
+    <string name="app_name">IN&amp;OUT</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">الباسورد</string>
+    <string name="email">الآميل</string>
+    <string name="phone">الهاتف</string>
+    <string name="addres">العنوان</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="select_date">حدد التاريخ…</string>
+    <string name="by_pressing_next_you_agree_to_our">بالضغط على التالي فإنك توافق على</string>
+    <string name="terms_amp_conditions">شروط الاتفاقية</string>
+    <string name="send">إرسال</string>
+    <string name="name">الآسم</string>
+    <string name="permission_date">تاريخ الإذن</string>
+    <string name="a_cause">السبب</string>
+    <string name="managing_director">المدير العام</string>
+    <string name="notes">ملاحضات</string>
+    <string name="attend">حضور</string>
+    <string name="depart">إنصراف</string>
+    <string name="informations">المعلومات</string>
+    <string name="gander">النوع</string>
+    <string name="languages">اللغة</string>
+    <string name="thames">الشكل</string>
+    <string name="share">مشاركة</string>
+    <string name="privacy">الخصوصية</string>
+    <string name="hello">مرحباً !</string>
+    <string name="forgot_password">نسيت الباسورد ؟</string>
+    <string name="you_are_new_create_new">انشاء حساب جديد</string>
+    <string name="day">اليوم</string>
+    <string name="home">الشاشة الرئيسية</string>
+    <string name="timelogin">وقت الحضور</string>
+    <string name="exception">إذن</string>
+    <string name="settings">الآعدادات</string>
+    <string name="timetoleave">وقت الإنصراف</string>
+    <string name="pleaseentername"> من فضلك ادخل الاسم</string>
+    <string name="pleaseenterpassword">من فضلك الباسورد</string>
+    <string name="Passwordmustbe8digit">الباسورد لا يجب ان يقل عن 8 ارقام</string>
+    <string name="pleaseenterEmail">من فضلك الاميل</string>
+    <string name="pleaseenterphone">من فضلك الهاتف</string>
+    <string name="pleaseenter11digit">\"رقم الهاتف لا يجب ان يقل عن 11 ارقام \"</string>
+    <string name="pleaseenteraddress">من فضلك العنوان </string>
+    <string name="pleaseenterdata">من فضلك التاريخ</string>
+    <string name="accountcreatedsuccessfully">تم إنشاء الحساب بنجاح</string>
+    <string name="forgetpassword">\"  نسيت الباسورد  \"</string>
+    <string name="changepasswordfromemail">\" برجاء كتابه الاميل لتغير الباسورد \"</string>
+    <string name="thanks">شكرأ</string>
+    <string name="pleaseentercause">برجاء إدخل السبب</string>
+    <string name="pleaseentermanagername">برجاء ادخل اسم المدير </string>
+    <string name="sendExpationdone">\"تم إرسال الاذن  \"</string>
+    <string name="arabic">اللغة العربية</string>
+    <string name="english">اللغة الانجليزية</string>
+    <string name="chooselanguage">إختار اللغة</string>
+    <string name="hi"> مرحباً </string>
+    <string name="fingerprint">\"البصمة \"</string>
+    <string name="cancel">الغاء</string>
+    <string name="authenticate">المصادقة</string>
+    <string name="permissiondenied">\"تم فضل اعطاء الاذن \"</string>
+    <string name="writtenwithTime">\"تم تسجيل الوقت بنجاح: \"</string>
+    <string name="ErroraddingTime">لم يتم تسجيل الوقت بنجاح</string>
+    <string name="scanQRcode">قارى الباركود</string>
+    <string name="again">حاول مره اخرى</string>
+    <string name="sorryplaseagain">برجاء المحاولة مره اخرى</string>
+    <string name="forflash">\"     لشتغيل الفلاش برجاء الضغط على زر رفع الصوت\"</string>
+    <string name="didntuseflash">لإغلاق  الفلاش برجاء الضغط على زر خفض الصوت</string>
+    <string name="h">Home</string>
+    <string name="latitude">خط العرض</string>
+    <string name="longitude">خط الطول </string>
+    <string name="save">حفظ </string>
+    <string name="editprofile">تعديل الملف الشخصي</string>
+
+    <string-array name="gender">
+        <item>النوع </item>
+        <item>ذكر </item>
+        <item>انثي </item>
+    </string-array>
+    <string-array name="Department">
+        <item>   القسم </item>
+        <item>  الموارد البشرية  </item>
+        <item>   تكنولوجيا المعلومات </item>
+        <item>  إنتاج </item>
+        <item>   الحسابات والمالية </item>
+        <item>  التسويق و المبيعات </item>
+        <item>  إدارة الجودة </item>
+        <item>  قسم الصحة والسلامة </item>
+
+    </string-array>
+    <string-array name="PermissionType">
+        <item>  نوع الإذن </item>
+        <item>  مرضي  </item>
+        <item>   راحة بالخصم </item>
+        <item>  ظرف شخصي  </item>
+        <item>   أمومة/إرضاع  </item>
+        <item>  أخرى :............  </item>
+
+    </string-array>
+</resources>

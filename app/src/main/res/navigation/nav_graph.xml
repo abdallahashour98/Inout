@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/Home"
+    >
+
+    <fragment
+        android:id="@+id/time_login"
+        android:name="com.example.inout.fragment.Timeloginfragment"
+        android:label="fragment_timelogin"
+        tools:layout="@layout/fragment_timelogin"   >
+
+        <action
+            android:id="@+id/action_time_login_to_Home"
+            app:destination="@id/Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/time_leave"
+        android:name="com.example.inout.fragment.timetoleaveFragment"
+        android:label="fragment_timetoleave"
+        tools:layout="@layout/fragment_timetoleave" >
+        <action
+            android:id="@+id/action_time_leave_to_Home"
+            app:destination="@id/Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/expation"
+        android:name="com.example.inout.fragment.ExpationFragment"
+        android:label="fragment_expation"
+        tools:layout="@layout/fragment_expation" >
+        <action
+            android:id="@+id/action_expation_to_Home"
+            app:destination="@id/Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.inout.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.inout.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_setting_to_Home"
+            app:destination="@id/Home" />
+    </fragment>
+
+</navigation>
